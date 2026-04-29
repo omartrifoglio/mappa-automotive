@@ -8,7 +8,7 @@ st.set_page_config(page_title="Mappa Automotive", layout="wide")
 st.title("🗺️ Mappa Punti di Interesse Automotive")
 st.markdown("Clicca sulla mappa per spostare il centro e calcolare le isocrone stradali.")
 
-ORS_API_KEY = "INCOLLA_QUI_LA_TUA_KEY_ORS"
+ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6Ijg4OGFiOTQ0Y2UyNzQ2YTc4ZWNjODUyZTI0NWJhYjYxIiwiaCI6Im11cm11cjY0In0="
 
 def get_isocrone(lat, lon, distanze_km):
     """Calcola isocrone per distanza stradale tramite ORS"""
